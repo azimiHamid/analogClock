@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ertugrul Clock</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="preloader">
+  <div id="countdown">3</div>
+  <button id="playButton" class="play-button">Let's Go...</button>
+</div>
+<div id="mainContent" style="display: none;">
+  <div id="container">
+    <nav id="navbar">
+      <img src="images/logo.png" class="logo" />
+      <ul id="menu-links">
+        <li><a href="#container">Home</a></li>
+        <li><a href="">Services</a></li>
+        <li><a href="">Projects</a></li>
+        <li><a href="about.html">About Me</a></li>
+      </ul>
+      <button class="nav-btn">
+        Get Started <img src="images/arrow-white.png" />
+      </button>
+
+      <img src="images/menu.png" class="menu-icon" />
+    </nav>
+
+    <main>
+      <h1 id="project-title">Ertugrul Ghazi Analog Clock</h1>
+      <div id="clock">
+        <div class="needle hour" style="--h: 90px; --color: green">
+          <span></span>
+        </div>
+        <div class="needle min" style="--h: 110px; --color: chocolate">
+          <span></span>
+        </div>
+        <div class="needle sec" style="--h: 130px; --color: burlywood">
+          <span></span>
+        </div>
+        <ul>
+          <li style="--i: 1"><span>1</span></li>
+          <li style="--i: 2"><span>2</span></li>
+          <li style="--i: 3"><span>3</span></li>
+          <li style="--i: 4"><span>4</span></li>
+          <li style="--i: 5"><span>5</span></li>
+          <li style="--i: 6"><span>6</span></li>
+          <li style="--i: 7"><span>7</span></li>
+          <li style="--i: 8"><span>8</span></li>
+          <li style="--i: 9"><span>9</span></li>
+          <li style="--i: 10"><span>10</span></li>
+          <li style="--i: 11"><span>11</span></li>
+          <li style="--i: 12"><span>12</span></li>
+        </ul>
+      </div>
+
+      <div class="description">
+        <p>If you like to watch this series go to the following link</p>
+        <h3>Diriliş Ertuğrul</h3>
+        <div class="series-chapter">
+          <a
+            href="https://youtube.com/playlist?list=PLgirwYDDPtS2Tz7K6PZMYi_d8SeXQg-T5"
+            class="link"
+            target="_blank"
+            >Ertugrul Season 1</a
+          >
+          <a
+            href="https://youtube.com/playlist?list=PLgirwYDDPtS05gyfru0ETfmc9B5Fgh2kM"
+            class="link"
+            target="_blank"
+            >Ertugrul Season 2</a
+          >
+          <a
+            href="https://youtube.com/playlist?list=PLgirwYDDPtS1fWzj8IBUxjN07pF9Y9wdg"
+            class="link"
+            target="_blank"
+            >Ertugrul Season 3</a
+          >
+          <a
+            href="https://youtube.com/playlist?list=PLgirwYDDPtS3xais5ixHnE5PXNn2-0c3_"
+            class="link"
+            target="_blank"
+            >Ertugrul Season 4</a
+          >
+          <a
+            href="https://youtube.com/playlist?list=PLgirwYDDPtS0itM3thU7jV44cbcUCMiV1"
+            class="link"
+            target="_blank"
+            >Ertugrul Season 5</a
+          >
+        </div>
+      </div>
+    </main>
+
+    <footer>
+        <p>© <span id="copyRightYear">2024</span> Hamid Azimi</p>
+    </footer>
+  </div>
+
+  <audio id="myAudio" loop>
+    <source src="sounds/ertugrul.mp3" type="audio/mp3">
+  </audio>
+  <audio id="myAudio2">
+    <source src="sounds/tick-tok.mp3" type="audio/mp3">
+  </audio>
+</div>
+
+
+
+<script src="main.js"></script>
+</body>
+</html>
