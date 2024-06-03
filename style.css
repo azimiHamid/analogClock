@@ -311,3 +311,7 @@ footer p {
         display: none;
     }
 }
+
+button {
+    cursor: pointer;
+}
